@@ -1,33 +1,27 @@
-🚗 Ride Sharing and Trip Planning System
+## 🚗 Ride Sharing and Trip Planning System
 
 A Python-based web application built using Streamlit and NetworkX to optimize ride-sharing routes and multi-stop trip planning using powerful graph algorithms like BFS, Prim's, and TSP (Branch & Bound).
 
-🔧 Features
+## 🔧 Features
 
 🚘 Ride Sharing Optimization
-Supports shared rides for 2 to 5 users
+- Supports shared rides for 2 to 5 users
+- Calculates shortest and cost-effective paths
+- Visualizes optimized routes on interactive maps
 
-Calculates shortest and cost-effective paths
-
-Visualizes optimized routes on interactive maps
-
-🗺 Multi-Stop Trip Planning
+## 🗺 Multi-Stop Trip Planning
 Create routes with multiple destinations
 
 Choose between:
 
-Fixed order of stops
+- Fixed order of stops
+- TSP-optimized path for minimum distance
+- Displays total distance, estimated time, and cost
 
-TSP-optimized path for minimum distance
-
-Displays total distance, estimated time, and cost
-
-📊 Algorithms Used
-Shortest Path – BFS (via Dijkstra’s algorithm)
-
-Minimum Spanning Tree – Prim’s algorithm
-
-Traveling Salesman Problem – Branch & Bound approach
+## 📊 Algorithms Used
+- Shortest Path – BFS (via Dijkstra’s algorithm)
+- Minimum Spanning Tree – Prim’s algorithm
+- Traveling Salesman Problem – Branch & Bound approach
 
 🗂 Project Structure
 
@@ -39,7 +33,7 @@ Traveling Salesman Problem – Branch & Bound approach
 
 
 
-⚙️ Setup and Installation
+## ⚙️ Setup and Installation
 
 1.Clone the repository
 
@@ -62,18 +56,15 @@ Traveling Salesman Problem – Branch & Bound approach
 
 
 
-🧪 Usage Instructions
+## 🧪 Usage Instructions
 Use the sidebar to:
 
-Add multiple locations
+- Add multiple locations
+- Choose transportation mode (car/bike)
+- Plan a single ride or multi-stop trip
+- View results as optimized routes with distance, time, and cost
 
-Choose transportation mode (car/bike)
-
-Plan a single ride or multi-stop trip
-
-View results as optimized routes with distance, time, and cost
-
-📌 Requirements
+## 📌 Requirements
 
      Python 3.8 or above
 
