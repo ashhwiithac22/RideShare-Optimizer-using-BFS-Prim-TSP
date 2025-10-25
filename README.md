@@ -65,7 +65,7 @@ Use the sidebar to:
 - View results as optimized routes with distance, time, and cost
 
 ## 📌 Requirements
-
+```
      Python 3.8 or above
 
      Required libraries:
@@ -81,7 +81,8 @@ Use the sidebar to:
      pandas
 
      numpy
-
+```
+🌐 **Live Demo:** [Ride Sharing App](https://rideshareoptimizer.streamlit.app/)
 
 
 
